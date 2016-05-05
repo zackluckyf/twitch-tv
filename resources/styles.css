@@ -1,0 +1,95 @@
+/* ---------------------------------------- */
+/* BASIC SETUP */
+/* ---------------------------------------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    background-color: #953603;
+    color: wheat;
+    font-family: 'Lora', serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+.wrapper{
+    text-align: center;
+}
+
+.row {
+    margin: 0 auto;
+    display: inline-block;
+    height: 55px;
+    width: 55px;
+    float: right;
+}
+
+ul{
+    margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
+    border: 2px solid blue;
+    list-style-type: none;
+}
+
+li{
+    height: 60px;
+    border: 2px solid blue;
+    vertical-align: middle;
+    line-height: 250%;
+}
+h1 {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+button {
+    float: right;
+    width: 50px;
+}
+
+button:focus {outline:0;}
+
+.all-button {
+    background-color: blue;
+    color: white;
+}
+
+.online-button {
+    background-color: green;
+    color: white;
+}
+
+.offline-button {
+    background-color: red;
+    color: white;
+}
+
+span {
+    margin-left: 20px;
+}
+
+p {
+    display: inline-block;
+}
+
+.streamer {
+    margin-left: 5px;
+}
+
+.description {
+    margin-left: 20px;
+}
+
+a{
+    cursor: pointer;
+    color: inherit;
+}
